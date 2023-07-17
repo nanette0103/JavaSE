@@ -28,6 +28,8 @@ public class Variable02 {
 		
 		char ch4 = 66;
 		System.out.println("숫자 66에 해당하는 문자코드: " +ch4);
+		
+		System.out.println("안녕하세요");
 	}
 
 }
