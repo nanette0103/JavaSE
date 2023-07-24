@@ -1,6 +1,5 @@
-package section01
+package section01;
 /*
- * 주석
  * 코드에 영향을 주지 않는 개발자가 사용하는 메모 공간
  * 줄삭제 : ctrl + d
  * 
@@ -22,6 +21,6 @@ public class Comment {
 	}
 
 public static void printNum(int num) {
-		System.out.printlm("num: "+num)
+		System.out.println("num: "+num);
 	}
 }

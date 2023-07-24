@@ -26,7 +26,7 @@ public class Variable06 {
 	
 		String hello = "hello";
 		System.out.println("1번 인덱스: "+hello.charAt(1));
-		System.out.println("2번 인덱스 부터 4번 인덱스 전까지: " + hello.substring(2.4));
+		System.out.println("2번 인덱스 부터 4번 인덱스 전까지: " + hello.substring(2, 4));
 		
 		String addr = "서울 특별시 서대문구 신촌";
 				boolean isContain = addr.contains("특별시");

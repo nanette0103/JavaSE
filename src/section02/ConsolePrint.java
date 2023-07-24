@@ -1,7 +1,7 @@
 package section02;
 /*
  * 출력문
- * 데이터를 화면에 출력하는 ㅂ아법
+ * 데이터를 화면에 출력하는 방법
  * 
  * System.out.println() : 괄호 안 내용 출력 후 행 바꿈
  * System.out.print() : 괄호 안 내용 출력 후 행 바꾸지 않음

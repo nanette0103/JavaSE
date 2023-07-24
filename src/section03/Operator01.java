@@ -33,7 +33,7 @@ public class Operator01 {
 		System.out.println("divide: "+ divide);
 		
 		//나머지 값
-		int resultNum = 9 % 5
+		int resultNum = 9 % 5;
 	}
 
 }

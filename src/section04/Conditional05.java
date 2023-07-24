@@ -14,7 +14,7 @@ public class Conditional05 {
 		 */
 		
 		String rtCd = "02";
-		Switch(rtCd) {
+		switch(rtCd) {
 			case "01":
 			case "02":
 			case "04":

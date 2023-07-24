@@ -19,8 +19,9 @@ public class Variable04 {
 		double nDouble = 10.1d;
 		double nDouble2 = 10.1; //double은 d 생략 가능
 		
-		System.out.println("flot 형 :"+ nFloat);
+		System.out.println("float 형 :"+ nFloat);
 		System.out.println("double 형 :"+ nDouble);
 		System.out.println("double 형 :"+ nDouble2);
 
+}
 }
