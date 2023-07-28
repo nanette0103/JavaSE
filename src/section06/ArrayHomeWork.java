@@ -21,5 +21,13 @@ package section06;
 
  */
 public class ArrayHomeWork {
-
+	int[][] nums = new int[7][7]
+	
+	nums[i][j]=k;
+	
+	for(int i=0; i<nums.length; i++);
+		for(int j=0; j<nums.length; j++);{
+			System.out.println(nums[i][j]+" ");
+		}
+}
 }

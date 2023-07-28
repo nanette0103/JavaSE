@@ -15,6 +15,7 @@ public class Array05 {
 			System.out.println("i=%d -> nums[%d][%d] = %d ", i, i, j, nums[i],[j]);
 
 	}
+	System.out.println();
 
 
 }

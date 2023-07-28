@@ -9,11 +9,14 @@ public class Array03 {
 		System.out.println(names[i]);
 	}
 	
-	System.out.println("=====================")
+	System.out.println("=====================");
 	
 	// 배열 값 수정하기
 	names[4] = "메타몽";
 			
 	// 확장 for문
-	for
+	for(String name : names) {
+		System.out.println(name);
+	}
+}
 }

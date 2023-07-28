@@ -17,9 +17,8 @@ public class Constant {
 		System.out.println("원의 넓이"+area);
 		
 		area = 0; //0으로 초기화
-		area = Math.PI
-				
-				강의 다시 듣기!!
+		area = Math.PI * Math.pow(r,2);
+				System.out.println("원의 넓이: "+area);
 		
 		
 	}
