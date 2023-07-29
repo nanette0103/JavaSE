@@ -1,6 +1,8 @@
 package section06;
 
 public class Array05 {
+	public static void main(String[] args) {
+		
 	//new 연산자 사용하지 않고 2중 배열 선언
 	int[][] nums = {
 			{1, 2, 3},
@@ -11,7 +13,7 @@ public class Array05 {
 	};
 	
 	for(int i = 0; i<nums.length; i++) {
-		for(int j= 0; j<nums[i].length; j++)
+		for(int j= 0; j<nums[i].length; j++);
 			System.out.println("i=%d -> nums[%d][%d] = %d ", i, i, j, nums[i],[j]);
 
 	}

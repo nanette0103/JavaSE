@@ -11,14 +11,14 @@ public class Method04 {
 		System.out.println("평균:"+result[2]);
 		
 		System.out.println("===================");
-		refTest(values);
+		//refTest(values);
 		
 		for (int val : value) {
 			System.out.println(val);
 	}
 		
 		int num = 10;
-		valtest(num);
+		//valtest(num);
 		System.out.println("num:"+num);
 	
 	public static double[]summary(double[]value){
