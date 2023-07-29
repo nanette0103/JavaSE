@@ -34,7 +34,7 @@ public class OOP01 {
 		Car car1 = new Car();
 		Car car2 = new Car();
 		
-		Car2.color = "blue";
+		car2.color = "blue";
 				
 		System.out.println(car1.color);
 		System.out.println(car2.color);

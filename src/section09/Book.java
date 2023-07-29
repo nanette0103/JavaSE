@@ -3,9 +3,9 @@ package section09;
 public class Book {
 
 	//속성
-	public string title;
+	public String title;
 	public int price;
-	public int totalPage
+	public int totalPage;
 	public String author;
 	
 	public Book() { //생성자

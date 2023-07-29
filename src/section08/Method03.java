@@ -3,7 +3,7 @@ package section08;
 public class Method03 {
 	public static void main(String[] args) {
 		
-		int result = add (10,5)
+		int result = add (10,5);
 		System.out.println("result:"+result);
 	}
 	
@@ -17,4 +17,5 @@ public class Method03 {
 		int result = a+b+c;
 		
 		return result;
+}
 }
