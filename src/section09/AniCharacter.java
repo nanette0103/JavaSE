@@ -13,7 +13,11 @@ public class AniCharacter {
 		this.aniTitle="도라에몽";
 		this.birth="1973.04";
 		this.mbti="ESTP";
+<<<<<<< HEAD
 		String[] items = {"대나무 헬리콥터", "어디로든 문"};
+=======
+		String[] items = ("대나무헬리콥터", "어디로든 문");
+>>>>>>> branch 'master' of https://github.com/nanette0103/JavaSE.git
 		this.items= items;
 	}
 	

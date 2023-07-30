@@ -20,7 +20,13 @@ public class Method01 {
 		printPoketMon("025", "피카츄", "전기");
 		
 		String[] pokemons= {"피카츄","라이츄","파이리","꼬부기"};
+<<<<<<< HEAD
 		printPokeMon(pokemons);
+=======
+		printPokeMon(Pokemons);
+		
+		
+>>>>>>> branch 'master' of https://github.com/nanette0103/JavaSE.git
 		
 	}
 	
