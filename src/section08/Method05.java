@@ -17,19 +17,24 @@ package section08;
  * 
  */
 public class Method05 {
-	MemberVo memberVO = new memberVO();
+	public static void main(String[] args) {
+		
+		MemberVo memberVO = new MemberVo();
+		
+		memberVO.setId("025");
+//		memberVO.setName("피카츄");
+		memberVO.setAge(29);
+		
+		String id = memberVO.getId();
+//		String name=memberVO.getName();
+//		String age=memberVO.getAge();
+		
+		System.out.println("id:"+id);
+//		System.out.println("Name:"+name);
+//		System.out.println("Age:"+age);
+		
+	}
 	
-	MemberVO.setId("025");
-	MemberVO.setName("피카츄");
-	MemberVO.setAge(29);
-	
-	String id = memberVO.getId();
-	String name=memberVO.getName();
-	String age=memberVO.getAge();
-	
-	System.out.println("id:"+id);
-	System.out.println("Name:"+name);
-	System.out.println("Age:"+age);
 	
 	
 	

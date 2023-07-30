@@ -1,4 +1,5 @@
 package section06;
+
 /*
  1  2  3  4  5  6  7
  8  9 10 11 12 13 14
@@ -21,13 +22,15 @@ package section06;
 
  */
 public class ArrayHomeWork {
-	int[][] nums = new int[7][7]
-	
-	nums[i][j]=k;
-	
-	for(int i=0; i<nums.length; i++);
-		for(int j=0; j<nums.length; j++);{
-			System.out.println(nums[i][j]+" ");
+	public static void main(String[] args) {
+
+		int[][] nums = new int[7][7];
+
+
+		for (int i = 0; i < nums.length; i++) {
+			for (int j = 0; j < nums.length; j++){
+				System.out.println(nums[i][j] + " ");
+			}
 		}
-}
+	}
 }

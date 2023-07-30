@@ -2,7 +2,7 @@ package section09;
 
 public class Constructor03 {
 	public static void main(String[] args) {
-		AniCharacter ac1 new = AniCharacter();
+		AniCharacter ac1 = new AniCharacter();
 		
 		ac1.getInfo();
 		

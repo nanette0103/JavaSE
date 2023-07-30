@@ -13,7 +13,7 @@ public class AniCharacter {
 		this.aniTitle="도라에몽";
 		this.birth="1973.04";
 		this.mbti="ESTP";
-		String[] items = ("대나무 헬리콥터", "어디로든 문")
+		String[] items = {"대나무 헬리콥터", "어디로든 문"};
 		this.items= items;
 	}
 	
@@ -48,8 +48,8 @@ public class AniCharacter {
 		System.out.println("birth:"+birth);
 		System.out.println("mbti:"+mbti);
 		
-		for(int i =0; int<items.length; i++) {
-			System.out.println(items.[i]);
+		for(int i =0; i<items.length; i++) {
+			System.out.println(items[i]);
 		}
 	}
 	

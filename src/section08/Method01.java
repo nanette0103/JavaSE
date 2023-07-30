@@ -20,11 +20,10 @@ public class Method01 {
 		printPoketMon("025", "피카츄", "전기");
 		
 		String[] pokemons= {"피카츄","라이츄","파이리","꼬부기"};
-		printPokeMon(Pokemons)
-		
-		
+		printPokeMon(pokemons);
 		
 	}
+	
 	//1.인자x 리턴x -호출시 실행하고 끝나는 메서드
 	public static void hello() {
 		System.out.println("Hello, World!");
@@ -55,9 +54,10 @@ public class Method01 {
 //				System.out.println(mon);
 //		}
 	
-			for(int i=0; i<mons.length; i++)
+			for(int i=0; i<mons.length; i++) {
 				String mon = mons[i];
-			System.out.println(mon);
+				System.out.println(mon);
+			}
+		}
 	
-
 }

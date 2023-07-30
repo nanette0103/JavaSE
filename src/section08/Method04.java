@@ -3,7 +3,7 @@ package section08;
 public class Method04 {
 	
 	public static void main(String[] args) {
-		int[] values = {19, 55, 66, 72, 2, 1, 98};
+		double[] values = {19, 55, 66, 72, 2, 1, 98};
 		
 		double[] result = summary(values);
 		
@@ -13,7 +13,7 @@ public class Method04 {
 		System.out.println("===================");
 //		refTest(values);
 		
-		for (int val : value) {
+		for (double val : values) {
 			System.out.println(val);
 		}
 		
@@ -22,12 +22,12 @@ public class Method04 {
 		System.out.println("num:"+num);
 	}
 	
-	public static double[] summary(double[]value){
+	public static double[] summary(double[] values){
 		//result[0] : 합계, result [1] : 평균
 		double[] result = new double[2];
 		
 		int sum = 0;
-		for (int value : values) {
+		for (double value : values) {
 			sum += value;
 		}
 		
@@ -35,10 +35,8 @@ public class Method04 {
 		result[0]=sum;
 		result[1]=avg;
 		
-		result result;
+		return result;
 				
-				
-		}
 	}
 
 }
