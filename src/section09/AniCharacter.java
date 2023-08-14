@@ -13,11 +13,9 @@ public class AniCharacter {
 		this.aniTitle="도라에몽";
 		this.birth="1973.04";
 		this.mbti="ESTP";
-<<<<<<< HEAD
+
 		String[] items = {"대나무 헬리콥터", "어디로든 문"};
-=======
-		String[] items = ("대나무헬리콥터", "어디로든 문");
->>>>>>> branch 'master' of https://github.com/nanette0103/JavaSE.git
+
 		this.items= items;
 	}
 	
@@ -26,23 +24,25 @@ public class AniCharacter {
 		
 		getInfo();
 		System.out.println(">>친구목록<<");
-		for(String friend: friends)
+		for(String friend: friends){
+			System.out.print(friend+ " ");
+		}
+	}
 			
 	
 	//생성자 오버로딩
-	public Anicharacter(
-			Srting name;
-			Srting anititle;
-			Srting birth;
-			Srting mbti;
-			String[] items;)
-			
-		
+	public AniCharacter(
+			String name,
+			String anititle,
+			String birth,
+			String mbti,
+			String[] items
+			) {
 		this.name = name;
 		this.aniTitle = aniTitle;
 		this.birth = birth;
 		this.mbti=mbti;
-		this.items=items;
+		this.items=items;}
 	
 	
 	

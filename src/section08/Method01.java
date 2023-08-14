@@ -20,15 +20,9 @@ public class Method01 {
 		printPoketMon("025", "피카츄", "전기");
 		
 		String[] pokemons= {"피카츄","라이츄","파이리","꼬부기"};
-<<<<<<< HEAD
 		printPokeMon(pokemons);
-=======
-		printPokeMon(Pokemons);
 		
 		
->>>>>>> branch 'master' of https://github.com/nanette0103/JavaSE.git
-		
-	}
 	
 	//1.인자x 리턴x -호출시 실행하고 끝나는 메서드
 	public static void hello() {
@@ -56,7 +50,7 @@ public class Method01 {
 		}
 		
 		public static void printPokeMon(String[] mons) {
-//			for (String mon:mons)
+//			for (String mon:mons){
 //				System.out.println(mon);
 //		}
 	

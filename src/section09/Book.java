@@ -16,7 +16,7 @@ public class Book {
 		
 	}
 	
-	public void getInf0() {
+	public void getInfo() {
 		System.out.println("title: "+title);
 		System.out.println("price: "+price);
 		System.out.println("totalPage: "+totalPage);

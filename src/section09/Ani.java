@@ -4,7 +4,7 @@ public class Ani {
 	public String title;
 	public String genre;
 	public int runTime;
-	public boolean isAdult;
+	public boolean IsAdult;
 	
 	public Ani(String title, 
 			String genre, 
@@ -13,15 +13,15 @@ public class Ani {
 		
 		this.title=title;
 		this.genre=genre;
-		this.runtime=runtime;
-		this.isAdult=isAdult;
+		this.runTime=runtime;
+		this.IsAdult=IsAdult;
 	}
 	
 	public void getInfo() {
 		System.out.println("title:"+title);
 		System.out.println("genre:"+genre);
-		System.out.println("runtime:"+runtime);
-		System.out.println("isAdult:"isAdult);
+		System.out.println("runtime:"+runTime);
+		System.out.println("IsAdult:"+IsAdult);
 	}
 	
 

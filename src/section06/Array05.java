@@ -1,7 +1,6 @@
 package section06;
 
 public class Array05 {
-<<<<<<< HEAD
 
 	public static void main(String[] args) {
 
@@ -16,7 +15,7 @@ public class Array05 {
 			}
 		}
 		System.out.println();
-=======
+	}
 	public static void main(String[] args) {
 		
 	//new 연산자 사용하지 않고 2중 배열 선언
@@ -30,8 +29,7 @@ public class Array05 {
 	
 	for(int i = 0; i<nums.length; i++) {
 		for(int j= 0; j<nums[i].length; j++);
-			System.out.println("i=%d -> nums[%d][%d] = %d ", i, i, j, nums[i],[j]);
->>>>>>> branch 'master' of https://github.com/nanette0103/JavaSE.git
+			System.out.println("i=%d -> nums[%d][%d] = %d ", i, i, j, nums[i][j]);
 
 	}
 }

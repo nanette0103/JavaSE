@@ -10,7 +10,7 @@ public class Constructor01 {
 		Book book1 = new Book();
 		book1.title = "이방인";
 		book1.price =9000;
-		book1.totalpage =280;
+		book1.totalPage =280;
 		book1.author ="알베르 카뮈";
 		
 		book1.getInfo();

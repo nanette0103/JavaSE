@@ -11,22 +11,20 @@ public class Method04 {
 		System.out.println("평균:"+result[2]);
 		
 		System.out.println("===================");
-<<<<<<< HEAD
+
 //		refTest(values);
-=======
+
 		//refTest(values);
->>>>>>> branch 'master' of https://github.com/nanette0103/JavaSE.git
-		
+	
 		for (double val : values) {
 			System.out.println(val);
 		}
 		
 		int num = 10;
-<<<<<<< HEAD
+
 //		valtest(num);
-=======
+
 		//valtest(num);
->>>>>>> branch 'master' of https://github.com/nanette0103/JavaSE.git
 		System.out.println("num:"+num);
 	}
 	

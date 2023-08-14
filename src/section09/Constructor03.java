@@ -6,7 +6,7 @@ public class Constructor03 {
 		
 		ac1.getInfo();
 		
-		System.out.println("===============")
+		System.out.println("===============");
 		
 		String[] items = {"고길동"};
 		AniCharacter ac2 = new AniCharacter(
@@ -14,13 +14,13 @@ public class Constructor03 {
 				"아기공룡 둘리",
 				"198407",
 				"ISTJ",
-				items,
+				items
 				);
 		ac2.getInfo();
 		System.out.println("=============");
 		
-		String[] friens = {"진구", "이슬이", "퉁퉁이", "비실이"};
-		AcniCharacter ani3 =new AniCharater
+		String[] friends = {"진구", "이슬이", "퉁퉁이", "비실이"};
+		AniCharacter ani3 =new AniCharacter(friends);
 		
 	}
 
